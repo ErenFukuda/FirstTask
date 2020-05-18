@@ -122,7 +122,7 @@ jsPsych.plugins['free-sort'] = (function() {
     }
 
 
-    display_element.querySelector("#jspsych-free-sort-arena").innerHTML += '<img src="https://github.com/ErenFukuda/FirstTask/blob/master/SKLtasks/img/SmileyScale.png" width=130></img>';
+    display_element.querySelector("#jspsych-free-sort-arena").innerHTML += '<img src="https://erenfukuda.github.io/FirstTask/SKLtasks/img/SmileyScale.png" width=130></img>';
    
     display_element.innerHTML += '<button id="jspsych-free-sort-done-btn" class="jspsych-btn" style="background-color: #AED6F1">'+trial.button_label+'</button>';
 
