@@ -11,18 +11,18 @@
   SKLtimeline.push(DragNDroptrialPractice);
 
 
-  // var DragNDroptrial1 = {
-  //   type: 'free-sort',
-  //   stimuli: ['img/BG1.png','img/WG1.png']
-  // };
-  // SKLtimeline.push(DragNDroptrial1);
+  var DragNDroptrial1 = {
+    type: 'free-sort',
+    stimuli: ['https://erenfukuda.github.io/FirstTask/SKLtasks/img/BG1.png','https://erenfukuda.github.io/FirstTask/SKLtasks/img/WG1.png']
+  };
+  SKLtimeline.push(DragNDroptrial1);
 
 
-  // var DragNDroptrial2 = {
-  //   type: 'free-sort',
-  //   stimuli: ['img/WG2.png','img/BG2.png']
-  // };
-  // SKLtimeline.push(DragNDroptrial2);
+  var DragNDroptrial2 = {
+    type: 'free-sort',
+    stimuli: ['https://erenfukuda.github.io/FirstTask/SKLtasks/img/WG2.png','https://erenfukuda.github.io/FirstTask/SKLtasks/img/BG2.png']
+  };
+  SKLtimeline.push(DragNDroptrial2);
 
 
   // var DragNDroptrial3 = {
