@@ -1,4 +1,4 @@
-  var repo_site = "https://github.com/ErenFukuda/FirstTask/tree/master/SKLtasks/";
+  var repo_site = "https://erenfukuda.github.io/FirstTask/SKLtasks/";
 
  var SKLtimeline = [];
 
