@@ -6,7 +6,7 @@
 /*Liking Scale*/
   var DragNDroptrialPractice = {
     type: 'free-sort',
-    stimuli: [+ repo_site +'img/Monster1.png',+ repo_site +'img/Monster2.png']
+    stimuli: ["https://erenfukuda.github.io/FirstTask/SKLtasks/img/Monster1.png","https://erenfukuda.github.io/FirstTask/SKLtasks/img/Monster2.png"]
   };
   SKLtimeline.push(DragNDroptrialPractice);
 
