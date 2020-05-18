@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>First DragNDrop</title>
+    <script src="https://github.com/ErenFukuda/FirstTask/blob/master/jspsych.js"></script>
+    <script src="https://github.com/ErenFukuda/FirstTask/blob/master/plugins/jspsych-free-sort_SKLliking-qualtrics.js"></script>
+    <!-- <script src="../plugins/jspsych-free-sort_SKLgiving.js"></script> -->
+    <!-- <script src="../plugins/jspsych-image-keyboard-response.js"></script> -->
+  
+  </head>
+  <body>
+     <link rel="stylesheet" href="https://github.com/ErenFukuda/FirstTask/blob/master/css/jspsych.css"></link>
+      <div>
+          <span style="font-size: 24px;">
+          <br><br>
+          If you are seeing this message for <span style="color: rgb(255, 0, 0);"><b>more than 5 minutes</b></span>,<br>
+          please screen-capture this screen and send the image to us.
+          <br><br>
+          <span style="font-size: 28px;">We are very sorry for the inconvenience.</span>
+          </span>
+      </div>
+
+    <style>
+      #display_stage_background {
+        width: 100vw;
+        background-color: white;
+        z-index: -1;
+       }
+
+      #display_stage {
+        position: fixed;
+        left: 1vw;
+        top: 1vh;
+        height: 98vh;
+        width: 98vw;
+        background-color: white;
+        box-shadow: 1px 1px 1px #999;
+        border-radius: 15px;
+        z-index: 0;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        }
+    </style>
+
+    <div id='display_stage_background'></div>
+    <div id='display_stage'></div>
+ </body>
+
+<script src="jspsych-free-sort_SKL_main.js">
+
+
+
+/* Running timeline */
+  jsPsych.init({
+    timeline: SKLtimeline,
+    display_element: 'display_stage',
+    on_finish: function(){jsPsych.data.displayData();}
+  });
+
+
+  </script>
+</html>
