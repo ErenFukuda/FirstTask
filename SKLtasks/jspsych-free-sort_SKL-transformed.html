@@ -4,11 +4,12 @@
     <title>First DragNDrop</title>
     <script src="https://erenfukuda.github.io/FirstTask/jspsych.js"></script>
     <script src="https://erenfukuda.github.io/FirstTask/plugins/jspsych-free-sort_SKLliking-qualtrics.js"></script>
+    <link rel="stylesheet" href="https://erenfukuda.github.io/FirstTask/css/jspsych.css"></link>
     <!-- <script src="../plugins/jspsych-free-sort_SKLgiving.js"></script> -->
     <!-- <script src="../plugins/jspsych-image-keyboard-response.js"></script> -->
   
   </head>
-  <body>
+<!--   <body>
      <link rel="stylesheet" href="https://erenfukuda.github.io/FirstTask/css/jspsych.css"></link>
       <div>
           <span style="font-size: 24px;">
@@ -44,16 +45,16 @@
 
     <div id='display_stage_background'></div>
     <div id='display_stage'></div>
- </body>
+ </body> -->
 
-<script src="jspsych-free-sort_SKL_main.js">
+<script src="https://erenfukuda.github.io/FirstTask/SKLtasks/jspsych-free-sort_SKL_main.js">
 
 
 
 /* Running timeline */
   jsPsych.init({
     timeline: SKLtimeline,
-    display_element: 'display_stage',
+    // display_element: 'display_stage',
     on_finish: function(){jsPsych.data.displayData();}
   });
 
